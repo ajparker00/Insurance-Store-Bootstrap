@@ -5,3 +5,9 @@
   flex-wrap: wrap;
   min-height: 100vh;
 }
+
+.card-img-top {
+  width: 150px;
+  height: 125px;
+  background-size: cover;
+}

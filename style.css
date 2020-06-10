@@ -1,3 +1,21 @@
+body {
+  background: linear-gradient(to bottom, #c93a3a, #accbcf);
+}
+
+h1::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  background: linear-gradient(to bottom, #c93a3a, #accbcf);
+  opacity: 0.8;
+  z-index: -1;
+  transform: skewY(370deg) translate(-50%, -50%);
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -6,8 +24,33 @@
   min-height: 100vh;
 }
 
-.card-img-top {
-  width: 150px;
-  height: 125px;
-  background-size: cover;
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bungee Inline', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-img {
+  display: block;
+  height: 200px;
+  width: 60%;
+}
+
+.card-body {
+  background: rgb(226, 215, 215);
+}
+
+.card-title {
+  background: linear-gradient(to right bottom, #c93a3a, #accbcf);
+  padding: 1.3rem 0.8rem;
+  font-family: 'Bungee Inline', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+  word-spacing: 1px;
 }

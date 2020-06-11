@@ -2,6 +2,18 @@ body {
   background: linear-gradient(to bottom, #c93a3a, #accbcf);
 }
 
+h1 {
+  font-family: 'Bungee Inline', sans-serif;
+  font-weight: 400;
+  font-size: 6rem;
+  color: white;
+  transform: skewY(-5deg);
+  margin-bottom: 6rem;
+  text-align: center;
+  position: relative;
+  word-spacing: 3px;
+}
+
 h1::before {
   content: '';
   display: block;
@@ -24,13 +36,18 @@ h1::before {
   min-height: 100vh;
 }
 
+.card {
+  margin: 5px 5px;
+}
+
 .title {
   display: flex;
   justify-content: center;
   font-family: 'Bungee Inline', sans-serif;
+  color: white;
   font-weight: 700;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card-img {
@@ -53,4 +70,13 @@ h1::before {
   margin-bottom: 2rem;
   text-align: center;
   word-spacing: 1px;
+}
+
+.btn {
+  background: gray;
+}
+
+.btn:hover:hover,
+.btn:active {
+  background-color: #c93a3a;
 }

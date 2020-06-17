@@ -80,3 +80,27 @@ h1::before {
 .btn:active {
   background-color: #c93a3a;
 }
+
+#quote-btn {
+  -webkit-animation: red-to-black 6s linear 0s 2 alternate-reverse;
+  -moz-animation: red-to-black 6s linear 0s 2 alternate-reverse;
+  -ms-animation: red-to-black 6s linear 0s 2 alternate-reverse;
+  -o-animation: red-to-black 6s linear 0s 2 alternate-reverse;
+}
+
+/* Animation Design */
+
+@keyframes red-to-black {
+  0% {
+    background: red;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    background: gray;
+    transform: translate(10px, 10px);
+  }
+  100% {
+    background: black;
+    transform: translate(20px, 20px);
+  }
+}

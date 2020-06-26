@@ -1,12 +1,8 @@
-console.log('working');
-const button = document.querySelector('.target');
+// console.log('working');
 
-button.addEventListener('click', (event) => {
-  alert('Button Clicked');
-});
+// const form = document.getElementById('form-id');
+// const button = document.querySelector('.target');
 
-// console.log('file complete');
-// $('#target').click(function () {
-//   console.log('what happen');
-//   alert('Button clicked');
+// button.addEventListener('click', (event) => {
+//   alert('Button Clicked');
 // });
